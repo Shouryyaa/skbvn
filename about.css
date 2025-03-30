@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.900);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    /* opacity: 0.5; */
+}
+.navbar{
+    position: relative;
+}
+.navbar img{
+    display: inline;
+    width: 120px;
+    margin: 10px 20px;
+    opacity: 1;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.navbar div{
+    display: inline;
+    position: absolute;
+    margin-top:54px;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Castoro Titling';
+}
+.navbar ul{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    position: absolute;
+    /* border: 2px solid black; */
+    right: 20px;
+    top: 44px;
+}
+.navbar li{
+  display: inline;
+  margin: 6px 10px ;
+}
+.navbar ul li a{
+    font-family: 'Castoro Titling', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    padding: 11px;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.active{
+    border: 1px solid orange;
+}
+
+
+/* First section  */
+
+.first{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+.first h3{
+    color: orange;
+    font-family: 'Bona Nova', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 15%;
+    border-top: 2px solid rgb(249, 179, 49);
+    border-radius: 20px;
+    background-color: orange;
+    margin-bottom: 50px;
+}
+
+.left{
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 45%;
+    position: absolute;
+    left: 5%;
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    text-shadow: 0px 0px 0.5px black;
+    /* font-weight: bold; */
+}
+.right{
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: absolute;
+    right: 6%;
+}
+.right img{
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 10px;
+}
+.right p{
+    font-family: 'Bona Nova', serif;
+    position: relative;
+    text-align: center;
+    top: 8px;
+    font-weight: bolder;
+}
+
+
+/* Second Section  */
+
+/* .second{
+    height: 100vh;
+    width: 100%;
+} */
+.second h3{
+    color: orange;
+    font-family: 'Bona Nova', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+.second hr{
+    margin-bottom: 4px;
+}
+.sp{
+    padding: 0px 16%; 
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+    letter-spacing: 1px;
+}
+
+
+.container{
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-areas: "box1 box2 box3"
+                         "box4 box5 box6";
+     padding: 30px 90px;
+     margin: 50px 0px;
+
+}
+.box{
+    /* border: 2px solid blue; */
+    margin: 9px;
+    margin: 10px;
+}
+    .box1{
+    grid-area: box1;
+}
+    .box2{
+    grid-area: box2;
+}
+    .box3{
+    grid-area: box3;
+}
+    .box4{
+    grid-area: box4;
+}
+    .box5{
+    grid-area: box5;
+}
+    .box6{
+    grid-area: box6;
+}
+.container .box img{
+    height: 110px;
+    display: block;
+    margin: auto;
+}
+.container .box h6{
+    font-family: 'Castoro Titling', cursive;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px;
+    margin-top: 17px;
+    letter-spacing: 1px;
+    color: orange;
+    /* text-shadow: 0px 0px 3px black ; */
+}
+.container .box p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+/* End Section  */
+.end {
+    background-color: rgb(44 44 44);
+    display: grid;
+    grid-gap: 2px;
+    grid-template-areas: 'left middle right ';
+    color: white;
+}
+
+.left1 {
+    grid-area: left;
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 400px;
+}
+
+.left1 img {
+    display: block;
+    margin: auto;
+    width: 90px;
+    padding: 10px;
+}
+
+.left1 .aff {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(77, 77, 253);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-shadow: 0px 0px 20px black;
+}
+
+.left1 p {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.mid1 {
+    /* border : 2px solid black ; */
+    grid-area: middle;
+    display: flex;
+    align-items: center;
+
+}
+
+.right1 {
+    grid-area: right;
+    /* border: 2px solid black; */
+}
+
+.btnlast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    background-color: transparent;
+}
+
+.btnlast a {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btnlast a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.right1 h6 {
+    font-size: 2rem;
+    font-family: 'Castoro Titling', cursive;
+    margin: 22px 0px;
+    text-align: center;
+}
+
+.right1 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 7px 0px;
+}
+
+/* Footer */
+
+.footer {
+    font-size: 1rem;
+    background: rgb(30, 30, 30);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

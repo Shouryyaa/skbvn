@@ -1,0 +1,722 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(27, 26, 26);
+}
+
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/Best-CBSE-school-in-Indore.jpg) center center/cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar::before {
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.navbar {
+    position: relative;
+}
+
+.navbar img {
+    display: inline;
+    width: 120px;
+    margin: 10px 20px;
+    border: 1px solid white;
+    border-radius: 100px;
+    /* border: 2px solid black; */
+}
+
+.navbar div {
+    display: inline;
+    position: absolute;
+    margin-top: 54px;
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Castoro Titling';
+}
+
+.navbar ul {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    position: absolute;
+    /* border: 2px solid black; */
+    right: 20px;
+    top: 44px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 6px 10px;
+}
+
+.navbar ul li a {
+    font-family: 'Castoro Titling', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 5px black;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+.navbar ul li a:hover {
+    color: orange;
+}
+
+.active {
+    border: 1px solid orange;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    height: 70%;
+}
+
+.cont h4 {
+    /* letter-spacing: 3px; */
+    /* font-weight: lighter;
+    font-family: 'Luckiest Guy', cursive; */
+    /* width: 547px; */
+    text-align: center;
+    font-size: 5rem;
+    margin: 0px;
+}
+
+.contin {
+    /* border: 2px solid rgb(240, 232, 232); */
+    display: inline;
+    /* width: 720px; */
+    text-align: center;
+}
+
+.contin h4 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 698px;
+    color: rgb(248, 187, 73);
+    font-family: 'Average', serif;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 20px black;
+}
+
+.ss {
+    display: inline;
+    color: rgb(243, 167, 27);
+}
+
+.contin p {
+    display: block;
+    margin: auto;
+    padding: 0px 250px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    margin: 15px auto;
+    font-weight: lighter;
+    color: rgb(248, 226, 185);
+    text-shadow: 0px 0px 20px black;
+}
+
+.contin .btn {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    font-size: 24px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 200px;
+    box-shadow: 0 0 10px black;
+
+}
+
+.btn:hover {
+    background-image: linear-gradient(to left, rgb(255, 181, 44) 0%, rgb(255, 218, 148) 51%, rgb(255, 181, 44) 100%);
+    background-size: 300%;
+    transition: 0.2s;
+    box-shadow: 0 0 30px black;
+}
+
+.btn:hover a {
+    color: black;
+    font-weight: bold;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* new admission */
+
+/* .admission{
+    border: 2px solid black ;
+    height: 50vw;
+} */
+
+
+
+.admission h2{
+    color: orange;
+    font-family: 'Bona Nova', serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+.admission hr{
+    margin: 10px auto;
+}
+
+.admission h3{
+    color: orange;
+    font-family: 'Bona Nova', serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.admission .boxc{
+
+background-color: rgb(254, 179, 39);
+    padding: 0% 1%;
+    margin: 20px 60px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px black;
+    position: relative;
+    
+}
+
+.boxc h4{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: black;
+    font-family: 'Bona Nova', serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    /* position: relative; */
+    margin-top :30px;
+    margin-bottom : 5px;
+    
+}
+
+.boxc hr {
+    width: 12%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.boxc p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    /* display: flex;
+    justify-content: center; */
+    /* margin-top: -15px; */
+    text-align: center;
+}
+
+.boxc h6{
+    text-align: center;
+    font-family: 'Bona Nova', serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-blend-mode: lighten;
+}
+.boxc h5{
+    text-align: center;
+    font-family: 'Bona Nova', serif;
+    font-size: 19px;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    /* background-blend-mode: lighten; */
+}
+.hg{
+    background-color: rgb(139 4 4 / 30%);
+    width: 20%;
+}
+
+.leftin{
+    /* border: 1px solid blue; */
+    width: 40%; 
+    display: inline-block;
+    margin-left: 40px;
+    /* margin-top: 10px; */
+    position: relative;
+    top: -30px;
+}
+
+.leftin ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /* font-weight: bold; */
+    margin-bottom: 8px;
+    /* text-align: center; */
+}
+.line{
+    display: inline-block;
+    border-left: 1px 
+    solid black; 
+    height: 200px; 
+    margin-top: 45px;
+    position: absolute;
+}
+.rightin{
+    /* border: 1px solid green; */
+    width: 55%;
+    display: inline-block;
+    margin-left: 5px;
+    /* position: absolute; */
+    margin-top: 10px;   
+    
+}
+.rightin ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    /* font-weight: bold; */
+    margin-bottom: 8px;
+    /* text-align: center; */
+}
+.boxx{
+    position: relative;
+}
+.hrr{
+    margin-top: 5px;
+    width: 4%;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    background-color: black;
+    margin-bottom: 15px;
+    margin: auto;
+}
+.vision li{
+    list-style: none;
+    /* text-align: center; */
+}
+
+
+
+/* Facilities Section  */
+
+.facilities h3 {
+    color: orange;
+    font-family: 'Bona Nova', serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.faci {
+    display: flex;
+}
+
+.box1 {
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+
+    background-image: linear-gradient(to left, rgb(247, 211, 149) 0%, rgb(250, 234, 206) 61%, rgb(247, 211, 149) 100%);
+    background-size: 300%;
+    transition: 1s;
+    box-shadow: 0 0 15px rgb(88, 87, 87);
+}
+
+.box1 img {
+    width: 350px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    border: 2px solid rgb(255, 190, 69);
+    /* box-shadow: 0px 0px 10px black; */
+}
+
+.box1 h5 {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 20px 0px;
+    /* color: orange; */
+}
+
+.box1 p {
+    /* color: orange; */
+    font-size: 0.95rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0px;
+    font-weight: lighter;
+}
+
+
+
+/* WHY SECTION  */
+
+
+.why {
+    width: 100%;
+    position: relative;
+}
+
+.why h3 {
+    color: orange;
+    font-family: 'Bona Nova', serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 10%;
+    border-top: 2px solid rgb(249, 179, 49);
+    border-radius: 20px;
+    background-color: orange;
+}
+
+.whyp {
+    color: black;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 183, 0);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    padding: 50px 90px;
+}
+
+.container .box {
+    /* border: 2px solid black; */
+    background-color: rgb(254, 247, 235);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+    padding: 20px;
+    margin: 7px;
+}
+
+.container .box p {
+    font-family: 'Tiro Gurmukhi', serif;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0px 10px;
+}
+
+.container .box img {
+    width: 70px;
+    display: block;
+    margin: auto;
+}
+
+.container .box h5 {
+    font-family: 'Bona Nova', serif;
+    color: #000;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 17px 0px;
+}
+
+.container .box:hover {
+    background-color: rgb(252, 231, 173);
+    transition: 0.3s;
+    box-shadow: 0px 0px 12px black;
+
+}
+
+.mainhr {
+    width: 90%;
+    border-top: 2px solid rgb(249, 179, 49);
+    border-radius: 20px;
+    margin: 0px;
+}
+
+/* REVIEW SECTION  */
+.client-s {
+    position: relative;
+    height: 100vh;
+}
+
+.ch {
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+    font-size: 3rem;
+    font-family: 'Castoro Titling', cursive;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: orange;
+    padding-top: 60px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.cb {
+    font-family: 'Average', serif;
+    border: 3px solid rgb(248, 192, 96);
+    /* margin: 50px 30px; */
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+.cb {
+    background-image: linear-gradient(to left, rgb(247, 211, 149) 0%, rgb(250, 234, 206) 61%, rgb(247, 211, 149) 100%);
+    background-size: 300%;
+    transition: 1s;
+    box-shadow: 0 0 20px rgb(88, 87, 87);
+}
+
+.cb:hover {
+    background-position: right;
+}
+
+.cb img {
+    height: 170px;
+    border-radius: 1000px;
+    border: 2px solid rgb(253, 199, 106);
+}
+
+.incb {
+    padding: 10px 25px;
+    /* width: 550px; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border-right:  2px solid rgb(82, 83, 83); */
+}
+
+.incb .ch4 {
+    text-align: center;
+    margin: 5px 0px;
+    font-size: 1.5rem;
+}
+
+.incb h6 {
+    margin: 0px;
+    letter-spacing: 1px;
+    padding: 0px;
+    font-size: 0.8rem;
+}
+
+.cp {
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    margin: 0px;
+}
+
+.info {
+    background: linear-gradient(to right, rgb(254, 162, 2) 40%, rgb(253, 196, 97) 100%, rgb(254, 162, 2) 40%);
+    border: 2px solid black;
+}
+
+.info .in {
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding: 20px;
+}
+
+.info .out {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .out .in .number {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.info .out .in .txt {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* End Section  */
+.end {
+    background-color: rgb(44 44 44);
+    display: grid;
+    grid-gap: 2px;
+    grid-template-areas: 'left middle right ';
+    color: white;
+}
+
+.left {
+    grid-area: left;
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 400px;
+}
+
+.left img {
+    display: block;
+    margin: auto;
+    width: 90px;
+    padding: 10px;
+}
+
+.left .aff {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(77, 77, 253);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0px;
+    text-shadow: 0px 0px 20px black;
+}
+
+.left p {
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.mid {
+    /* border : 2px solid black ; */
+    grid-area: middle;
+    display: flex;
+    align-items: center;
+
+}
+
+.right {
+    grid-area: right;
+    /* border: 2px solid black; */
+}
+
+.btnlast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    background-color: transparent;
+}
+
+.btnlast a {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btnlast a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.right h6 {
+    font-size: 2rem;
+    font-family: 'Castoro Titling', cursive;
+    margin: 22px 0px;
+    text-align: center;
+}
+
+.right p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 7px 0px;
+}
+
+/* Footer */
+
+.footer {
+    font-size: 1rem;
+    background: rgb(30, 30, 30);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* 
+. 
+. 
+. 
+. 
+Responsiveness
+. 
+. 
+.  */
+
+
+
+@media screen and (max-width:1300px) {
+
+    .box1 img{
+        width: 100px;
+    }
+    
+}
