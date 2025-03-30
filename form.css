@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.contact-section{
+    background: linear-gradient(rgba(50, 50, 50, 0.7), rgba(20, 20, 20, 0.7)), url(../img/contact-bg.jpg) center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.hh3{
+    font-family: 'Tiro Gurmukhi', serif;
+    color: orange;
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+    font-size: 4.8rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* text-shadow: 0 0 5px white; */
+}
+
+.con-s input , label{ 
+    flex-direction: column;
+}
+.con-s label{
+    font-family: 'Poppins', sans-serif;
+    color: orange;
+    font-size: 1.5rem;
+}
+.con-s input {
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 5px black;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 3%;
+    padding: 10px;
+}
+
+.con-s form{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.btn1{
+    text-decoration: none;
+    background-color: transparent;
+    padding: 8px;
+    color: white;
+    border: 2px solid ;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    margin: 25px;
+    font-weight: bold;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+.btn1:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+}
+.con-s select{
+    box-shadow: 0 0 5px black;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 3%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.con-s textarea{
+     box-shadow: 0 0 5px black;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 3%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
